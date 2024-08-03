@@ -3,19 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35027.167
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineVSCleanArch.API", "src\OnlineVSCleanArch.API\OnlineVSCleanArch.API.csproj", "{5C890E27-B4A3-43DA-A0B2-104B683BB0AF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OnlineVSCleanArch.API", "src\OnlineVSCleanArch.API\OnlineVSCleanArch.API.csproj", "{5C890E27-B4A3-43DA-A0B2-104B683BB0AF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineVSCleanArch.Application", "src\OnlineVSCleanArch.Application\OnlineVSCleanArch.Application.csproj", "{D71D8305-E68F-42AE-BD15-7CC5C2282D74}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OnlineVSCleanArch.Application", "src\OnlineVSCleanArch.Application\OnlineVSCleanArch.Application.csproj", "{D71D8305-E68F-42AE-BD15-7CC5C2282D74}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineVSCleanArch.Domain", "src\OnlineVSCleanArch.Domain\OnlineVSCleanArch.Domain.csproj", "{C9D1446B-51C7-4463-B4BC-0608345C68DC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OnlineVSCleanArch.Domain", "src\OnlineVSCleanArch.Domain\OnlineVSCleanArch.Domain.csproj", "{C9D1446B-51C7-4463-B4BC-0608345C68DC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineVSCleanArch.Infrastructure", "src\OnlineVSCleanArch.Infrastructure\OnlineVSCleanArch.Infrastructure.csproj", "{785D7D93-7C5B-4A74-A187-CE9309B4D553}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OnlineVSCleanArch.Infrastructure", "src\OnlineVSCleanArch.Infrastructure\OnlineVSCleanArch.Infrastructure.csproj", "{785D7D93-7C5B-4A74-A187-CE9309B4D553}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineVSCleanArch.Test", "test\OnlineVSCleanArch.Test\OnlineVSCleanArch.Test.csproj", "{48F1F24E-715B-42CC-881D-5538EEAEA03B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OnlineVSCleanArch.Test", "test\OnlineVSCleanArch.Test\OnlineVSCleanArch.Test.csproj", "{48F1F24E-715B-42CC-881D-5538EEAEA03B}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{24E947B3-3639-4AEC-A7B0-8B1303529C86}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{9EEA23A4-22AB-4FF9-A5CC-5F8D2BADEFC7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2BB9BBEA-F0C2-4817-A246-34763FD9DFB7}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
